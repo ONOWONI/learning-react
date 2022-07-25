@@ -1,19 +1,22 @@
-import React from "react";
-
-function UnorderedList() {
+export default function Main() {
     return (
-        <div className='center'>
-            <h1>Fun facts about React</h1>
-            <ul>
-                <li>Was first released in 2013</li>
-                <li>Was originallly created by Jordan Walke</li>
-                <li>Has well over 100k stars in Github</li>
-                <li>Is maintained by Facebook</li>
-                <li>Powers thousands of enterprise apps, including Mobile apps</li>
-            </ul>
-        </div>
-)}
-
-
-// exports begins here
-export default UnorderedList;
+        <main>
+            <div className="name-and-role">
+                <h1>Name</h1>
+                <p>Role</p>
+            </div>
+            <div className="reach-links">
+                <button>EMAIL</button>
+                <button>PHONE</button>
+            </div>
+            <section>
+                <h3>About</h3>
+                <p>This is the place where i post what i'm about. What am i? I don't really know</p>
+            </section>
+            <section>
+                <h3>Interests</h3>
+                <p>I am so deperessed that i don't know what i like anymore</p>
+            </section>
+        </main>
+    )
+}

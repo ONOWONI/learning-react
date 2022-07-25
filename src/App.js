@@ -1,14 +1,14 @@
 import './App.css';
 import React from 'react';
-import Header from './components/header.js';
-import UnorderedList from './components/main';
+import Image from './components/image';
+import Main from './components/main';
 import Footer from './components/footer';
 
 function App() {
   return (
-    <div>
-      <Header />
-      <UnorderedList />
+    <div className='container'>
+      <Image />
+      <Main />
       <Footer />
     </div>
   );

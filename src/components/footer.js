@@ -1,5 +1,12 @@
-function Footer() {
-    return (<footer className='center'>2022 Badtnigga development. All rights reserved</footer>)
-};
-
-export default Footer;
+export default function Footer() {
+    return (
+        <footer>
+            <ul>
+                <li>A</li>
+                <li>B</li>
+                <li>C</li>
+                <li>D</li>
+            </ul>
+        </footer>
+    )
+}
